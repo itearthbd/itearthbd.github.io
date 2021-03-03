@@ -1,0 +1,249 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Flora_home.master.cs" Inherits="FloraBank.Web.Flora_home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Flora Systems</title>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/slide/fb.jpg" rel="icon">
+  <link href="assets/img/slide/fb.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Flora CSS Files -->
+  <link href="assets/Flora/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/Flora/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/Flora/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/Flora/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/Flora/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/Flora/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/Flora/aos/aos.css" rel="stylesheet">
+  <link href="assets/Flora/remixicon/remixicon.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+ <!-- Florabank_portal -->
+     
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="Assets/Florabank_portal/css/all.min.css" />
+    <link rel="stylesheet" href="Assets/Florabank_portal/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Assets/Florabank_portal/css/templatemo-style.css" />
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="Flora_home.aspx"><span>Flora Systems</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="Flora_home.aspx" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+         <li class="active"><a href="Flora_home.aspx">Home</a></li>
+          <li class="drop-down"><a href="">Flora Bank</a>
+            <ul>
+		<li><a href="#">Message From Chairman</a></li>              
+		<li><a href="#">Flora Vision</a></li>
+		<li><a href="#">Core Business Activities</a></li>
+		<li><a href="#">Flora Clients</a></li>
+		<li><a href="#">Flora Trusted Partners</a></li>
+		<li><a href="#">Flora Certification</a></li>
+              
+              <li class="drop-down"><a href="#">Flora Systems</a>
+                <ul>
+                  <li><a href="#">Employee Information</a></li>
+                  <li><a href="#">Software Department</a></li>
+                  <li><a href="#">Network Department</a></li>
+                  <li><a href="#">Support Department</a></li>
+                  <li><a href="#">Accounts Department</a></li>
+		  <li><a href="#">Business Department</a></li>
+                </ul>
+              </li>
+		<li class="drop-down"><a href="#">Flora Telecom</a>
+                <ul>
+                  <li><a href="#">Employee Information</a></li>
+                  <li><a href="#">Software Department</a></li>
+                  <li><a href="#">Network Department</a></li>
+                  <li><a href="#">Support Department</a></li>
+                  <li><a href="#">Accounts Department</a></li>
+		  <li><a href="#">Business Department</a></li>
+                </ul>
+            </ul>
+          </li>
+
+          <li class="drop-down"><a href="#">Flora bank Project</a>
+                <ul>
+		  <li><a href="#">Online Banking Security System</a></li>
+                  <li><a href="#">Online Banking</a></li>
+                  <li><a href="#">Online Banking Support</a></li>
+				  <li><a href="#">Call Management System</a></li>
+                  <li><a href="#">Internet Banking</a></li>
+                  <li><a href="#">Mobile banking</a></li>
+		  <li><a href="#">Agent Banking</a></li>
+		  <li><a href="#">Data Entry</a></li>
+		  <li><a href="#">Web Research</a></li>
+		  <li><a href="#">Computer Hardware</a></li>
+                </ul>
+	</li>
+
+	<li class="drop-down"><a href="">Flora Systems Employee</a>
+            <ul>
+		
+              <li class="drop-down"><a href="#">Flora Systems</a>
+                <ul>
+                  <li><a href="../CMS/Flora_systems_emp/employee_info.aspx">Admin</a></li>       
+		  		</ul>
+              </li>
+		<li class="drop-down"><a href="../CMS/Flora_systems_emp/employee_info.aspx">Flora Telecom</a>
+                 <ul>
+                  <li><a href="#">Admin</a></li>
+                 </ul>
+	      </ul>
+          </li>
+
+          <li><a href="Contact.aspx">Contact</a></li>
+		  
+	  <li class="drop-down"><a href="#">Login</a>
+            <ul>
+			<li><a href="../CMS/login.aspx">Client Login For Support </a></li>
+		  <li><a href="../CMS/login.aspx">Admin Login</a></li>
+          
+                  
+          </ul>
+	</li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Flora Systems</h3>
+            <p>
+              Zahed Plaza(8th Floor), 30, Gulshan Avenue(North), Gulshan Circle-2, <br>
+              E-mail:fsl@gmail.com<br>
+              Web:www.florasystems.net<br><br>
+              <strong>Telephone:</strong>+8881236-40(PABX), 8881250<br>
+              <strong>Fax:</strong> 880-2-8881248<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Important Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Flora Systems Clients</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Flora Bank</a></li>
+	      <li><i class="bx bx-chevron-right"></i> <a href="#">Flora Bank Support</a></li>
+	      <li><i class="bx bx-chevron-right"></i> <a href="#">Flora Bank Employee</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Flora Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Software Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Online Support</a></li>
+	      <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Passport</a></li>
+	      
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Flora systems Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Flora Systems</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+         Developed by <a href="#">Md Abdur Rouf</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Flora JS Files -->
+  <script src="assets/Flora/jquery/jquery.min.js"></script>
+  <script src="assets/Flora/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/Flora/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/Flora/php-email-form/validate.js"></script>
+  <script src="assets/Flora/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/Flora/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/Flora/venobox/venobox.min.js"></script>
+  <script src="assets/Flora/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/Flora/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/Flora/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
